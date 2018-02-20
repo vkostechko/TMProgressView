@@ -10,17 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var progressView: UIView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    
-    }
+    @IBOutlet weak var progressView: TMProgressView!
 
-   
     @IBAction func startAction(_ sender: Any) {
+        progressView.start()
     }
     
     @IBAction func stopAction(_ sender: Any) {
+        progressView.stop()
     }
     
 }

@@ -18,22 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="umn-8g-hAH">
-                                <rect key="frame" x="30" y="276" width="315" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.93952015466279692" blue="0.60173411686435818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="umn-8g-hAH" customClass="TMProgressView" customModule="TMProgressView" customModuleProvider="target">
+                                <rect key="frame" x="30" y="299" width="315" height="4"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="cCC-tq-98e"/>
+                                    <constraint firstAttribute="height" constant="4" id="cCC-tq-98e"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPW-fe-SEJ">
-                                <rect key="frame" x="30" y="366" width="142.5" height="30"/>
+                                <rect key="frame" x="30" y="343" width="142.5" height="30"/>
                                 <state key="normal" title="start"/>
                                 <connections>
                                     <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dZ-aH-6xV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVE-ph-Mxy">
-                                <rect key="frame" x="202.5" y="366" width="142.5" height="30"/>
+                                <rect key="frame" x="202.5" y="343" width="142.5" height="30"/>
                                 <state key="normal" title="stop"/>
                                 <connections>
                                     <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QwD-J6-MlJ"/>

@@ -12,6 +12,7 @@
 		2FE098B120276EE400DED944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE098AF20276EE400DED944 /* Main.storyboard */; };
 		2FE098B320276EE400DED944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE098B220276EE400DED944 /* Assets.xcassets */; };
 		2FE098B620276EE400DED944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE098B420276EE400DED944 /* LaunchScreen.storyboard */; };
+		2FF606992027710200F4726D /* TMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF606982027710200F4726D /* TMProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FE098B220276EE400DED944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE098B520276EE400DED944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE098B720276EE400DED944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF606982027710200F4726D /* TMProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2FE098B220276EE400DED944 /* Assets.xcassets */,
 				2FE098B420276EE400DED944 /* LaunchScreen.storyboard */,
 				2FE098B720276EE400DED944 /* Info.plist */,
+				2FF606982027710200F4726D /* TMProgressView.swift */,
 			);
 			path = TMProgressView;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF606992027710200F4726D /* TMProgressView.swift in Sources */,
 				2FE098AE20276EE400DED944 /* ViewController.swift in Sources */,
 				2FE098AC20276EE400DED944 /* AppDelegate.swift in Sources */,
 			);
